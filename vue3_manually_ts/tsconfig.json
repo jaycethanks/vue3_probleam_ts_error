@@ -14,7 +14,8 @@
       "noEmit": true,
       "jsx": "preserve",
       "paths": {
-        "@/*": ["./src/*"]
+        "@/*": ["./src/*"],
+        "@req":["./src/utils/request/index.js"]
       },
       /* Linting */
       "strict": true,

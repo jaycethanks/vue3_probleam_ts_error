@@ -1,5 +1,5 @@
 import { AxiosInstance } from "axios"
-declare module "requestjs" {
+declare module "request" {
     export default AxiosInstance
 }
 
